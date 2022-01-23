@@ -1,0 +1,9 @@
+{
+  "Styled Components CSS with theme": {
+    "prefix": ["sct"],
+    "body": [
+        "${({ theme }) => css``}"
+      ],
+    "description": "A simple snippets for creating StyledComponents with CSS"
+  }
+}
