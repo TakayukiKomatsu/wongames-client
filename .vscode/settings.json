@@ -2,5 +2,37 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules": true,
+    "*/node_modules": true,
+    "*/**/yarn.lock": true,
+    ".github": true,
+    ".husky": true,
+    ".jest": true,
+    ".next": true,
+    ".storybook": true,
+    "coverage": true,
+    "generators": true,
+    ".editorconfig": true,
+    ".eslintignore": true,
+    ".eslintrc.json": true,
+    ".gitignore": true,
+    ".prettierignore": true,
+    ".prettierrc": true,
+    "jest.config.js": true,
+    "next-env.d.ts": true,
+    "next.config.js": true,
+    "styled-components.d.ts": true,
+    "tsconfig.json": true,
+    "yarn.lock": true,
+    ".vscode": true
+  },
+  "explorerExclude.backup": null,
 }
