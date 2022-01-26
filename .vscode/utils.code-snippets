@@ -5,5 +5,12 @@
         "${({ theme }) => css``}"
       ],
     "description": "A simple snippets for creating StyledComponents with CSS"
+  },
+  "Styled Components defaultTheme with theme": {
+    "prefix": ["sdt"],
+    "body": [
+       "(theme: DefaultTheme) => css``,"
+      ],
+    "description": "A simple snippets for creating StyledComponents with CSS"
   }
 }
